@@ -11,13 +11,13 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-40 h-16 border-b border-gray-200 bg-white">
       <div className="container-standard flex h-full items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5 leading-none">
+        <Link href="/" className="flex items-center gap-3 leading-none">
           <Image
             src="/mediforma_logo_only.svg"
             alt="Mediforma logo"
-            width={24}
-            height={24}
-            className="block h-6 w-6 object-contain"
+            width={30}
+            height={30}
+            className="block h-[30px] w-[30px] object-contain"
             priority
           />
           <span className="font-[var(--font-inter)] text-[15px] font-medium text-navy">Mediforma Society</span>
