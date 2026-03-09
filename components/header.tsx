@@ -15,9 +15,9 @@ export function Header() {
           <Image
             src="/mediforma_logo_only.svg"
             alt="Mediforma logo"
-            width={36}
-            height={36}
-            className="block h-9 w-9 object-contain"
+            width={40}
+            height={40}
+            className="block h-10 w-10 object-contain"
             priority
           />
           <span className="font-[var(--font-inter)] text-[18px] font-semibold text-navy">Mediforma Society</span>
